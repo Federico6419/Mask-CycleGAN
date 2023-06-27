@@ -16,7 +16,7 @@ LOAD_MODEL = True
 SAVE_MODEL = False
 TRAIN_MODEL = True
 TRANSFORMATION = "AppleToOrange"                          
-BETTER= False
+TEST_MASK = "Random"
 
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_b.pth.tar"
