@@ -64,15 +64,15 @@ class Generator(nn.Module):
         ####################### LAST LAYER ############## 
         self.last = nn.Conv2d(64, img_channels, kernel_size=7, stride=1, padding=3, padding_mode="reflect")
 
-    def forward(self, x):
-        x = self.initial(x)
+    def forward(self, image, mask):
+        x = self.initial(image * mask)
         x = self.conv1(x)
         x = self.conv2(x)
         x = self.res_blocks(x)
         x = self.tran1(x)
         x = self.tran2(x)
         
-        return torch.tanh(self.last(x))
+        return (torch.tanh(self.last(x)) + (image * (1 - mask))
     
 if __name__ == "__main__":
     test()
