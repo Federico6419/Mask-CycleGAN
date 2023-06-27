@@ -12,25 +12,25 @@ LAMBDA_IDENTITY = 5 # 0.5*lambda_cycle
 LAMBDA_MASK = 0.7
 LAMBDA_CYCLE_MASK = 0.3
 NUM_EPOCHS = 10
-LOAD_MODEL = False
+LOAD_MODEL = True
 SAVE_MODEL = True
 TRAIN_MODEL = True
 TRANSFORMATION = "AppleToOrange"                          
 TEST_MASK = "Random"
 
-CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_a.pth.tar"     
-CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_b.pth.tar"
-CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_a.pth.tar"
-CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_b.pth.tar"
-CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_a.pth.tar"
-CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_b.pth.tar"
+CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrange10/gen_a.pth.tar"     
+CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrange10/gen_b.pth.tar"
+CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrange10/disc_a.pth.tar"
+CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrange10/disc_b.pth.tar"
+CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/AppleToOrange10/disc_a.pth.tar"
+CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/AppleToOrange10/disc_b.pth.tar"
 
-NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrange10/gen_a.pth.tar"     
-NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrange10/gen_b.pth.tar"
-NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrange10/disc_a.pth.tar"
-NEW_CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrange10/disc_b.pth.tar"
-NEW_CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/AppleToOrange10/disc_a.pth.tar"
-NEW_CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/AppleToOrange10/disc_b.pth.tar"
+NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrange20/gen_a.pth.tar"     
+NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrange20/gen_b.pth.tar"
+NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrange20/disc_a.pth.tar"
+NEW_CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrange20/disc_b.pth.tar"
+NEW_CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/AppleToOrange20/disc_a.pth.tar"
+NEW_CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/AppleToOrange20/disc_b.pth.tar"
 
 transforms = A.Compose(
     [
