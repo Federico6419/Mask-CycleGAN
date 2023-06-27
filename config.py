@@ -22,11 +22,15 @@ CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_a.pth.ta
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_a.pth.tar"
 CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_b.pth.tar"
+CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_a.pth.tar"
+CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_b.pth.tar"
 
 NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_a.pth.tar"     
 NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_b.pth.tar"
 NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_a.pth.tar"
 NEW_CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_b.pth.tar"
+NEW_CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_a.pth.tar"
+NEW_CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_b.pth.tar"
 
 transforms = A.Compose(
     [
