@@ -72,7 +72,7 @@ class Generator(nn.Module):
         x = self.tran1(x)
         x = self.tran2(x)
         
-        return (torch.tanh(self.last(x)) + (image * (1 - mask))
+        return (torch.tanh(self.last(x))) + (image * (1 - mask))
     
 if __name__ == "__main__":
     test()
