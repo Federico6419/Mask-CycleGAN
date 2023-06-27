@@ -13,7 +13,7 @@ LAMBDA_MASK = 0.7
 LAMBDA_CYCLE_MASK = 0.3
 NUM_EPOCHS = 20
 LOAD_MODEL = False
-SAVE_MODEL = False
+SAVE_MODEL = True
 TRAIN_MODEL = True
 TRANSFORMATION = "AppleToOrange"                          
 BETTER= False
@@ -23,10 +23,10 @@ CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrange20/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrange20/disc_a.pth.tar"
 CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrange20/disc_b.pth.tar"
 
-NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrange40/gen_a.pth.tar"     
-NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrange40/gen_b.pth.tar"
-NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrange40/disc_a.pth.tar"
-NEW_CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrange40/disc_b.pth.tar"
+NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_a.pth.tar"     
+NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/gen_b.pth.tar"
+NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_a.pth.tar"
+NEW_CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrangeMask5/disc_b.pth.tar"
 
 transforms = A.Compose(
     [
