@@ -7,7 +7,6 @@ TRAIN_DIR = "Datasets/Train"
 TEST_DIR = "Datasets/Test"
 
 LEARNING_RATE = 2e-5
-GAMMA_CYCLE = 0.1
 LAMBDA_CYCLE = 10
 LAMBDA_IDENTITY = 5 # 0.5*lambda_cycle
 LAMBDA_MASK = 0.7
