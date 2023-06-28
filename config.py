@@ -15,7 +15,7 @@ NUM_EPOCHS = 20
 LOAD_MODEL = False
 SAVE_MODEL = True
 TRAIN_MODEL = True
-TRANSFORMATION = "HorseToZebra"                          
+TRANSFORMATION = "AppleToOrange"                          
 TEST_MASK = "Random"
 
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/HorseToZebra20/gen_a.pth.tar"     
@@ -25,12 +25,12 @@ CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrange40/disc_b.pth.tar
 CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/AppleToOrange40/disc_am.pth.tar"
 CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/AppleToOrange40/disc_bm.pth.tar"
 
-NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/HorseToZebra20No2/gen_a.pth.tar"     
-NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/HorseToZebraNo2/gen_b.pth.tar"
-NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/HorseToZebra20No2/disc_a.pth.tar"
-NEW_CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/HorseToZebra20No2/disc_b.pth.tar"
-NEW_CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/HorseToZebra20No2/disc_am.pth.tar"
-NEW_CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/HorseToZebra20No2/disc_bm.pth.tar"
+NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/AppleToOrange30No2/gen_a.pth.tar"     
+NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/AppleToOrange30No2/gen_b.pth.tar"
+NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/AppleToOrange30No2/disc_a.pth.tar"
+NEW_CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/AppleToOrange30No2/disc_b.pth.tar"
+NEW_CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/AppleToOrange30No2/disc_am.pth.tar"
+NEW_CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/AppleToOrange30No2/disc_bm.pth.tar"
 
 transforms = A.Compose(
     [
