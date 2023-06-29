@@ -18,12 +18,12 @@ NUM_EPOCHS = 12
 LOAD_MODEL = True
 SAVE_MODEL = False
 TRAIN_MODEL = False
-TRANSFORMATION = "HorseToZebra"       
+TRANSFORMATION = "AppleToOrange"       
 TRAIN_MASK = "Random"
 TEST_MASK = "Random"
 
 #Checkpoints to load
-FOLDER = "HorseToZebra40"
+FOLDER = "AppleToOrange60"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
