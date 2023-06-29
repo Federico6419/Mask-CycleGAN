@@ -19,7 +19,7 @@ LOAD_MODEL = True
 SAVE_MODEL = False
 TRAIN_MODEL = False
 TRANSFORMATION = "AppleToOrange"       
-TRAIN_MASK = "Random"
+TRAIN_MASK = "Rectangular"
 TEST_MASK = "Random"
 
 #Checkpoints to load
