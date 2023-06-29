@@ -27,7 +27,7 @@ FOLDER = "AppleToOrange20No2"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
-CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints" + FOLDER + "/disc_b.pth.tar"
+CHECKPOINT_DISC_B = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_b.pth.tar"
 CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_am.pth.tar"
 CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_bm.pth.tar"
 
