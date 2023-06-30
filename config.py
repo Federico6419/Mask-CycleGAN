@@ -14,16 +14,16 @@ LAMBDA_MASK = 0.7
 LAMBDA_CYCLE_MASK = 0.3
 
 #Settings
-NUM_EPOCHS = 40
-LOAD_MODEL = False
+NUM_EPOCHS = 25
+LOAD_MODEL = True
 SAVE_MODEL = True
 TRAIN_MODEL = True
-TRANSFORMATION = "AppleToOrange"       
+TRANSFORMATION = "HorseToZebra"       
 TRAIN_MASK = "Rectangular"
 TEST_MASK = "Random"
 
 #Checkpoints to load
-FOLDER = "AppleToOrange60"
+FOLDER = "HorseToZebra25"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
@@ -32,7 +32,7 @@ CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_am.pth.ta
 CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_bm.pth.tar"
 
 #Checkpoints to save
-NEW_FOLDER = "AppleToOrange40"
+NEW_FOLDER = "HorseToZebra50"
 NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_a.pth.tar"     
 NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_b.pth.tar"
 NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/disc_a.pth.tar"
