@@ -23,7 +23,7 @@ TRAIN_MASK = "Rectangular"
 TEST_MASK = "Random"
 
 #Checkpoints to load
-FOLDER = "HorseToZebra50"
+FOLDER = "HorseToZebra75"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
@@ -32,7 +32,7 @@ CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_am.pth.ta
 CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_bm.pth.tar"
 
 #Checkpoints to save
-NEW_FOLDER = "HorseToZebra75"
+NEW_FOLDER = "HorseToZebra100"
 NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_a.pth.tar"     
 NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_b.pth.tar"
 NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/disc_a.pth.tar"
