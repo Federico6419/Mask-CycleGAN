@@ -21,7 +21,8 @@ TRAIN_MODEL = False
 TRANSFORMATION = "AppleToOrange"       
 TRAIN_MASK = "Rectangular"
 TEST_MASK = "Random"
-TEST_FOLDER = "Horse100"
+TEST_FOLDER_A = "Horse100"
+TEST_FOLDER_B = "Zebra100"
 
 #Checkpoints to load
 FOLDER = "AppleToOrange100"
