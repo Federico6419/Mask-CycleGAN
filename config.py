@@ -21,8 +21,8 @@ TRAIN_MODEL = False
 TRANSFORMATION = "UkiyoeToPhoto"       
 TRAIN_MASK = "Squared"
 TEST_MASK = "Random"
-TEST_FOLDER_A = "Van20"
-TEST_FOLDER_B = "PhotoVan20"
+TEST_FOLDER_A = "Ukiyoe5"
+TEST_FOLDER_B = "PhotoUkiyoe5"
 
 #Checkpoints to load
 FOLDER = "UkiyoeToPhoto5"
