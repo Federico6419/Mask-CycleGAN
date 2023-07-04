@@ -15,17 +15,17 @@ LAMBDA_CYCLE_MASK = 0.3
 
 #Settings
 NUM_EPOCHS = 25
-LOAD_MODEL = False
-SAVE_MODEL = True
-TRAIN_MODEL = True
-TRANSFORMATION = "HorseToZebra"       
+LOAD_MODEL = True
+SAVE_MODEL = False
+TRAIN_MODEL = False
+TRANSFORMATION = "UkiyoeToPhoto"       
 TRAIN_MASK = "Squared"
 TEST_MASK = "Random"
 TEST_FOLDER_A = "Van20"
 TEST_FOLDER_B = "PhotoVan20"
 
 #Checkpoints to load
-FOLDER = "MonetToPhoto20"
+FOLDER = "UkiyoeToPhoto5"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
