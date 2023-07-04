@@ -18,14 +18,14 @@ NUM_EPOCHS = 5
 LOAD_MODEL = True
 SAVE_MODEL = True
 TRAIN_MODEL = True
-TRANSFORMATION = "VanToPhoto"       
+TRANSFORMATION = "MonetToPhoto"       
 TRAIN_MASK = "Rectangular"
 TEST_MASK = "Random"
 TEST_FOLDER_A = "Van20"
 TEST_FOLDER_B = "PhotoVan20"
 
 #Checkpoints to load
-FOLDER = "VanToPhoto20"
+FOLDER = "MonetToPhoto20"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
@@ -34,7 +34,7 @@ CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_am.pth.ta
 CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_bm.pth.tar"
 
 #Checkpoints to save
-NEW_FOLDER = "VanToPhoto25"
+NEW_FOLDER = "MonetToPhoto25"
 NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_a.pth.tar"     
 NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_b.pth.tar"
 NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/disc_a.pth.tar"
