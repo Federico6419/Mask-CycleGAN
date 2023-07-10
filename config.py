@@ -15,17 +15,17 @@ LAMBDA_CYCLE_MASK = 0.3
 
 #Settings
 NUM_EPOCHS = 5
-LOAD_MODEL = True
+LOAD_MODEL = False
 SAVE_MODEL = True
 TRAIN_MODEL = True
-TRANSFORMATION = "VanToPhoto"       
+TRANSFORMATION = "MonetToPhoto"       
 TRAIN_MASK = "Squared"
 TEST_MASK = "Random"
 TEST_FOLDER_A = "Ukiyoe15"
 TEST_FOLDER_B = "PhotoUkiyoe15"
 
 #Checkpoints to load
-FOLDER = "VanToPhotoSquared20"
+FOLDER = "MonetToPhotoSquared0"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
@@ -34,7 +34,7 @@ CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_am.pth.ta
 CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_bm.pth.tar"
 
 #Checkpoints to save
-NEW_FOLDER = "VanToPhotoSquared25"
+NEW_FOLDER = "MonetToPhotoSquared5"
 NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_a.pth.tar"     
 NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_b.pth.tar"
 NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/disc_a.pth.tar"
