@@ -51,6 +51,7 @@ except ImportError:
 
 from pytorch_fid.inception import InceptionV3
 
+"""
 parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
 parser.add_argument('--batch-size', type=int, default=50,
                     help='Batch size to use')
@@ -69,6 +70,7 @@ parser.add_argument('--save-stats', action='store_true',
 parser.add_argument('path', type=str, nargs=2,
                     help=('Paths to the generated images or '
                           'to .npz statistic files'))
+"""
 
 IMAGE_EXTENSIONS = {'bmp', 'jpg', 'jpeg', 'pgm', 'png', 'ppm',
                     'tif', 'tiff', 'webp'}
@@ -289,32 +291,34 @@ def main(a, b):
     #args = parser.parse_args()
     args = a, b
 
-    if args.device is None:
-        device = torch.device('cuda' if (torch.cuda.is_available()) else 'cpu')
-    else:
-        device = torch.device(args.device)
+    #if args.device is None:
+    device = torch.device('cuda' if (torch.cuda.is_available()) else 'cpu')
+    #else:
+    #    device = torch.device(args.device)
 
-    if args.num_workers is None:
-        try:
-            num_cpus = len(os.sched_getaffinity(0))
-        except AttributeError:
-            # os.sched_getaffinity is not available under Windows, use
-            # os.cpu_count instead (which may not return the *available* number
-            # of CPUs).
-            num_cpus = os.cpu_count()
+    #if args.num_workers is None:
+    try:
+       num_cpus = len(os.sched_getaffinity(0))
+    except AttributeError:
+      # os.sched_getaffinity is not available under Windows, use
+      # os.cpu_count instead (which may not return the *available* number
+      # of CPUs).
+       num_cpus = os.cpu_count()
+   
+    num_workers = min(num_cpus, 8) if num_cpus is not None else 0
+    #else:
+    #    num_workers = args.num_workers
 
-        num_workers = min(num_cpus, 8) if num_cpus is not None else 0
-    else:
-        num_workers = args.num_workers
+    #if args.save_stats:
+    #    save_fid_stats(args.path, args.batch_size, device, args.dims, num_workers)
+    #    return
 
-    if args.save_stats:
-        save_fid_stats(args.path, args.batch_size, device, args.dims, num_workers)
-        return
+    paths = a, b
 
-    fid_value = calculate_fid_given_paths(args.path,
-                                          args.batch_size,
+    fid_value = calculate_fid_given_paths(paths,
+                                          50,
                                           device,
-                                          args.dims,
+                                          2048,
                                           num_workers)
     print('FID: ', fid_value)
 
