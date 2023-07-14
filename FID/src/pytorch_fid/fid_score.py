@@ -285,8 +285,9 @@ def save_fid_stats(paths, batch_size, device, dims, num_workers=1):
     np.savez_compressed(paths[1], mu=m1, sigma=s1)
 
 
-def main():
-    args = parser.parse_args()
+def main(a, b):
+    #args = parser.parse_args()
+   args = a, b
 
     if args.device is None:
         device = torch.device('cuda' if (torch.cuda.is_available()) else 'cpu')
