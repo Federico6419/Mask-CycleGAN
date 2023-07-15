@@ -22,7 +22,7 @@ def grid_with_id(grid, ids):
 
 
 
-def compute_fid_matrix(scale50, scale80, scale100, train, test):
+def compute_fid_matrix(name, scale50, scale80, scale100, train, test):
 
     data_ids = [
           'scale=0.50',
