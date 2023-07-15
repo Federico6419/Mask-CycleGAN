@@ -20,12 +20,12 @@ SAVE_MODEL = False
 TRAIN_MODEL = False
 TRANSFORMATION = "UkiyoeToPhoto"       
 TRAIN_MASK = "Squared"
-TEST_FOLDER = "UkiyoeToPhoto25"
+TEST_FOLDER = "UkiyoeToPhotoSquared25"
 TEST_FOLDER_A = "Ukiyoe"
 TEST_FOLDER_B = "Photo"
 
 #Checkpoints to load
-FOLDER = "UkiyoeToPhoto25"
+FOLDER = "UkiyoeToPhotoSquared25"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
