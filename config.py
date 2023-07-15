@@ -20,7 +20,7 @@ SAVE_MODEL = False
 TRAIN_MODEL = False
 TRANSFORMATION = "MonetToPhoto"       
 TRAIN_MASK = "Squared"
-TEST_FOLDER = "VanToPhoto25"
+TEST_FOLDER = "MonetToPhoto25"
 TEST_FOLDER_A = "Monet"
 TEST_FOLDER_B = "PhotoMonet"
 
