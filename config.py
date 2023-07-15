@@ -21,8 +21,8 @@ TRAIN_MODEL = False
 TRANSFORMATION = "MonetToPhoto"       
 TRAIN_MASK = "Squared"
 TEST_FOLDER = "MonetToPhoto25"
-TEST_FOLDER_A = "Apple"
-TEST_FOLDER_B = "Orange"
+TEST_FOLDER_A = "Monet"
+TEST_FOLDER_B = "Photo"
 
 #Checkpoints to load
 FOLDER = "MonetToPhoto25"
