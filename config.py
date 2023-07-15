@@ -20,12 +20,12 @@ SAVE_MODEL = False
 TRAIN_MODEL = False
 TRANSFORMATION = "MonetToPhoto"       
 TRAIN_MASK = "Squared"
-TEST_FOLDER = "MonetToPhoto25"
+TEST_FOLDER = "MonetToPhotoSquared25"
 TEST_FOLDER_A = "Monet"
 TEST_FOLDER_B = "Photo"
 
 #Checkpoints to load
-FOLDER = "MonetToPhoto25"
+FOLDER = "MonetToPhotoSquared25"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
