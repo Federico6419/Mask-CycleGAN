@@ -20,12 +20,12 @@ SAVE_MODEL = False
 TRAIN_MODEL = False
 TRANSFORMATION = "AppleToOrange"       
 TRAIN_MASK = "Squared"
-TEST_FOLDER = "AppleToOrange100"
+TEST_FOLDER = "AppleToOrangeSquared100"
 TEST_FOLDER_A = "Apple"
 TEST_FOLDER_B = "Orange"
 
 #Checkpoints to load
-FOLDER = "AppleToOrange100"
+FOLDER = "AppleToOrangeSquared100"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
