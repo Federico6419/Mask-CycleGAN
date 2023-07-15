@@ -20,6 +20,7 @@ SAVE_MODEL = False
 TRAIN_MODEL = False
 TRANSFORMATION = "VanToPhoto"       
 TRAIN_MASK = "Squared"
+TEST_FOLDER = "VanToPhoto"
 TEST_FOLDER_A = "Van25"
 TEST_FOLDER_B = "PhotoVan25"
 
