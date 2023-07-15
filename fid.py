@@ -22,7 +22,7 @@ def grid_with_id(grid, ids):
 
 
 
-def compute_fid_matrix(name, scale50, scale80, scale100, train, test):
+def compute_fid_matrix(name, folder, scale50, scale80, scale100, train, test):
 
     data_ids = [
           'scale=0.50',
@@ -71,6 +71,6 @@ def compute_fid_matrix(name, scale50, scale80, scale100, train, test):
     for row in fid_grid:
         print(row)
     
-    with open("FID_"+name, 'w') as fout:
+    with open(folder+"/FID_"+name, 'w') as fout:
           writer = csv.writer(fout, delimiter='\t', quoting=csv.QUOTE_NONNUMERIC)
           writer.writerows(fid_grid)
