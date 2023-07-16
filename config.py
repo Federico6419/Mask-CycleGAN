@@ -18,14 +18,14 @@ NUM_EPOCHS = 5
 LOAD_MODEL = True
 SAVE_MODEL = False
 TRAIN_MODEL = False
-TRANSFORMATION = "MonetToPhoto"       
+TRANSFORMATION = "UkiyoeToPhoto"       
 TRAIN_MASK = "Squared"
-TEST_FOLDER = "MonetToPhotoSquared25"
-TEST_FOLDER_A = "PhotoMonet"
-TEST_FOLDER_B = "Monet"
+TEST_FOLDER = "UkiyoeToPhoto25"
+TEST_FOLDER_A = "PhotoUkiyoe"
+TEST_FOLDER_B = "Ukiyoe"
 
 #Checkpoints to load
-FOLDER = "MonetToPhotoSquared25"
+FOLDER = "UkiyoeToPhoto25"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
