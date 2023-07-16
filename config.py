@@ -20,12 +20,12 @@ SAVE_MODEL = False
 TRAIN_MODEL = False
 TRANSFORMATION = "VanToPhoto"       
 TRAIN_MASK = "Squared"
-TEST_FOLDER = "VanToPhoto25"
+TEST_FOLDER = "VanToPhotoSquared25"
 TEST_FOLDER_A = "PhotoVan"
 TEST_FOLDER_B = "Van"
 
 #Checkpoints to load
-FOLDER = "VanToPhoto25"
+FOLDER = "VanToPhotoSquared25"
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
