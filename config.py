@@ -21,8 +21,8 @@ TRAIN_MODEL = False
 TRANSFORMATION = "HorseToZebra"       
 TRAIN_MASK = "Squared"
 TEST_FOLDER = "HorseToZebra100"
-TEST_FOLDER_A = "Horse"
-TEST_FOLDER_B = "Zebra"
+TEST_FOLDER_A = "Zebra"
+TEST_FOLDER_B = "Horse"
 
 #Checkpoints to load
 FOLDER = "HorseToZebra100"
