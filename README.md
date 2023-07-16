@@ -1,1 +1,1 @@
-# CycleGAN
+# Mask CycleGAN
