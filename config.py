@@ -14,18 +14,18 @@ LAMBDA_MASK = 0.7
 LAMBDA_CYCLE_MASK = 0.3
 
 #Settings
-NUM_EPOCHS = 5
-LOAD_MODEL = True
+NUM_EPOCHS = 10
+LOAD_MODEL = False
 SAVE_MODEL = False
-TRAIN_MODEL = False
-TRANSFORMATION = "MonetToPhoto"       
-TRAIN_MASK = "Squared"
-TEST_FOLDER = "MonetToPhoto25"
-TEST_FOLDER_A = "PhotoMonet"
-TEST_FOLDER_B = "Monet"
+TRAIN_MODEL = True
+TRANSFORMATION = "HorseToZebra"       
+TRAIN_MASK = "Rectangular"
+TEST_FOLDER = ""
+TEST_FOLDER_A = ""
+TEST_FOLDER_B = ""
 
 #Checkpoints to load
-FOLDER = "MonetToPhoto25"
+FOLDER = ""
 CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_a.pth.tar"     
 CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + FOLDER + "/gen_b.pth.tar"
 CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_a.pth.tar"
@@ -34,7 +34,7 @@ CHECKPOINT_DISC_AM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_am.pth.ta
 CHECKPOINT_DISC_BM = "../drive/MyDrive/Checkpoints/" + FOLDER + "/disc_bm.pth.tar"
 
 #Checkpoints to save
-NEW_FOLDER = "UkiyoeToPhotoSquared25"
+NEW_FOLDER = ""
 NEW_CHECKPOINT_GEN_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_a.pth.tar"     
 NEW_CHECKPOINT_GEN_B= "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/gen_b.pth.tar"
 NEW_CHECKPOINT_DISC_A = "../drive/MyDrive/Checkpoints/" + NEW_FOLDER + "/disc_a.pth.tar"
