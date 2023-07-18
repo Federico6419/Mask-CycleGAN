@@ -1,6 +1,6 @@
 # Mask CycleGAN
 
-Mask CycleGAN is an improvment to the original CycleGAN, indeed it deals with an Image-To-Image Translation between two domains.
+Mask CycleGAN is an improvement to the original CycleGAN, indeed it deals with an Image-To-Image Translation between two domains.
 It uses a different architecture and a masking scheme to solve two main problems of CycleGAN, that are the unimodality in image translation and the lack of interpretability of latent variables.
 
 ## Installation
