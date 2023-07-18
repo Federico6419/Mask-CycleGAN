@@ -3,6 +3,8 @@ import os
 import numpy as np
 from torch.utils.data import Dataset
 
+
+#This class will be used from both training and testing phase to take the elements from the chosen Dataset
 class Dataset(Dataset):
     def __init__(self, domainB_dir, domainA_dir, transform):
         self.root_domainB = domainB_dir
